@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>simplecalculater></title>
+  ranjana
+</head>
+<body>
+ enter number 1:<input type="number" id="num1" required autofocus>
+ enter number 2:<input type="number" id="num2" required>
+  <input type="button" value="add" onclick="add();">
+<div id="result">
+  
+  </div>
+     <script>
+       function add() {
+         var n1=document.getElementaryById("num1").value;
+         var n2=document.getElementaryById("num2").value;
+         var sum=+n1 + +n2;
+         alert("sum is"+sum);
+         document.getElementById("result").innerText=sum;
+        
+         }
+         
+  </script>
+</body>
+</html>
